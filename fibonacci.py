@@ -1,0 +1,12 @@
+n_lim=int(input("enter the limit:"))
+a=0
+b=1
+add=0
+count=1
+print("fibonacci series:",end = " ")
+while count<=n_lim:
+    print(add, end=" ")
+    count=count+1
+    a=b
+    b=add
+    add=a+b
